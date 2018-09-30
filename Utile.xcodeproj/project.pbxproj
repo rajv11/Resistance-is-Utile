@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F297E5321603E6700CFA70A /* ElectricalEngineer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F297E5221603E6700CFA70A /* ElectricalEngineer.swift */; };
+		3F297E5521603E8D00CFA70A /* IntPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F297E5421603E8D00CFA70A /* IntPow.swift */; };
 		3FF36239215EEB79003FDBDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF36238215EEB79003FDBDB /* AppDelegate.swift */; };
-		3FF3623B215EEB79003FDBDB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3623A215EEB79003FDBDB /* FirstViewController.swift */; };
-		3FF3623D215EEB79003FDBDB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3623C215EEB79003FDBDB /* SecondViewController.swift */; };
+		3FF3623B215EEB79003FDBDB /* ProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3623A215EEB79003FDBDB /* ProblemViewController.swift */; };
+		3FF3623D215EEB79003FDBDB /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3623C215EEB79003FDBDB /* StatisticsViewController.swift */; };
 		3FF36240215EEB79003FDBDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3623E215EEB79003FDBDB /* Main.storyboard */; };
 		3FF36242215EEB79003FDBDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF36241215EEB79003FDBDB /* Assets.xcassets */; };
 		3FF36245215EEB79003FDBDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF36243215EEB79003FDBDB /* LaunchScreen.storyboard */; };
+		3FF3624D215EEF2D003FDBDB /* ColorCodeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3624C215EEF2D003FDBDB /* ColorCodeInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F297E5221603E6700CFA70A /* ElectricalEngineer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricalEngineer.swift; sourceTree = "<group>"; };
+		3F297E5421603E8D00CFA70A /* IntPow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntPow.swift; sourceTree = "<group>"; };
 		3FF36235215EEB79003FDBDB /* Utile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF36238215EEB79003FDBDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FF3623A215EEB79003FDBDB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3FF3623C215EEB79003FDBDB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3FF3623A215EEB79003FDBDB /* ProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
+		3FF3623C215EEB79003FDBDB /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		3FF3623F215EEB79003FDBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FF36241215EEB79003FDBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF36244215EEB79003FDBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FF36246215EEB79003FDBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF3624C215EEF2D003FDBDB /* ColorCodeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCodeInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				3FF36238215EEB79003FDBDB /* AppDelegate.swift */,
-				3FF3623A215EEB79003FDBDB /* FirstViewController.swift */,
-				3FF3623C215EEB79003FDBDB /* SecondViewController.swift */,
+				3F297E5421603E8D00CFA70A /* IntPow.swift */,
+				3FF3623A215EEB79003FDBDB /* ProblemViewController.swift */,
+				3F297E5221603E6700CFA70A /* ElectricalEngineer.swift */,
+				3FF3623C215EEB79003FDBDB /* StatisticsViewController.swift */,
 				3FF3623E215EEB79003FDBDB /* Main.storyboard */,
+				3FF3624C215EEF2D003FDBDB /* ColorCodeInfoViewController.swift */,
 				3FF36241215EEB79003FDBDB /* Assets.xcassets */,
 				3FF36243215EEB79003FDBDB /* LaunchScreen.storyboard */,
 				3FF36246215EEB79003FDBDB /* Info.plist */,
@@ -139,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF3623D215EEB79003FDBDB /* SecondViewController.swift in Sources */,
+				3FF3623D215EEB79003FDBDB /* StatisticsViewController.swift in Sources */,
 				3FF36239215EEB79003FDBDB /* AppDelegate.swift in Sources */,
-				3FF3623B215EEB79003FDBDB /* FirstViewController.swift in Sources */,
+				3F297E5521603E8D00CFA70A /* IntPow.swift in Sources */,
+				3FF3623B215EEB79003FDBDB /* ProblemViewController.swift in Sources */,
+				3F297E5321603E6700CFA70A /* ElectricalEngineer.swift in Sources */,
+				3FF3624D215EEF2D003FDBDB /* ColorCodeInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C474W6J7J3;
 				INFOPLIST_FILE = Utile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Resistance.org.Utile;
@@ -293,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C474W6J7J3;
 				INFOPLIST_FILE = Utile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Resistance.org.Utile;
