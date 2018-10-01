@@ -15,17 +15,19 @@ class ProblemViewController: UIViewController {
     @IBOutlet weak var band3LBL: UILabel!
     
     @IBOutlet weak var answerTF: UITextField!
-    
+    func display(title:String, msg:String) {
+        let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
     @IBAction func checkAnswer(_ sender: Any) {
         if ElectricalEngineer.electricalEngineer.checkAnswer(answer: answerTF!.text!) {
-            let  alert  =  UIAlertController(title:  "Hurray",  message:  "Awesome work",  preferredStyle:  .alert)
-            alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
-            self.present(alert,  animated:  true,  completion:  nil)
+            display(title: "Hurray", msg: "Awesome work")
+            
         } else {
-            let  alert  =  UIAlertController(title:  "Incorrect Answer",  message:  "Please try again",  preferredStyle:  .alert)
-            alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
-            self.present(alert,  animated:  true,  completion:  nil)
-        }
+            display(title: "Incorrect Answer", msg: "Please try again")
+    }
     }
     
     @IBAction func generate(_ sender: Any) {

@@ -43,7 +43,7 @@ struct ElectricalEngineer {
     }
     mutating func generateProblem() -> [String] {
         
-        band1 = Int(arc4random_uniform(10))
+        band1 = Int(arc4random_uniform(9)+1)
 
         band2 = Int(arc4random_uniform(10))
         multiplier = Int(arc4random_uniform(8))
